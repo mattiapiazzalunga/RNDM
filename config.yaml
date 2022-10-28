@@ -1,0 +1,7 @@
+backend-build:
+  image: github/super-linter:latest
+
+  script:
+    - htmlhint 1.html
+    - stylelint 2.css
+    - eslint 3.js
